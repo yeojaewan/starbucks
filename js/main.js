@@ -1,13 +1,3 @@
-
-
-searchInputEl.addEventListener('blur', function(){
-    searchEl.classList.remove('focused');
-    searchInputEl.setAttribute('placeholder', '');
-});
-// 인풋요소에 추가해두었던 포커스드를 제거하면서 
-// 플레이스홀더에 들어갔던 텍스트를 제거한다.
-
-
 const badgeEl = document.querySelector('header .badges');
 const toTopEl = document.querySelector('#to-top');
 
@@ -153,7 +143,6 @@ spyEls.forEach(function (spyEl) {
                 .setClassToggle(spyEl, 'show')
                 .addTo(new ScrollMagic.Controller());
 });
-
 
 
 
